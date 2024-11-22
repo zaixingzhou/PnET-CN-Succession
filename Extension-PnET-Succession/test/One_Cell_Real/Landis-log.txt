@@ -1,0 +1,27 @@
+2021-11-15 10:27:16,601 - LANDIS-II 7.0 (7)
+2021-11-15 10:27:16,609 - 
+2021-11-15 10:27:16,732 - Loading scenario from file "scenario.txt" ...
+2021-11-15 10:27:16,806 - Initialized random number generator with user-supplied seed = 1,111
+2021-11-15 10:27:16,807 - Loading species data from file "Landscape-Oconto_species_CCA2.txt" ...
+2021-11-15 10:27:16,827 - Loading ecoregions from file "One_cell_ecoregion.txt" ...
+2021-11-15 10:27:16,838 - Initializing landscape from ecoregions map "ecoregion.img" ...
+2021-11-15 10:27:16,864 - Cell length = 30 m, cell area = 0.09 ha
+2021-11-15 10:27:16,865 - Map dimensions: 17 rows by 17 columns = 289 cells
+2021-11-15 10:27:16,872 - Sites: 1 active (0.3%), 288 inactive (99.7%)
+2021-11-15 10:27:16,878 - Loading PnET-Succession extension ...
+2021-11-15 10:27:17,006 - Initializing PnET-Succession version 5.0.0.0
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.WoodyDebris.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.Litter.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.FineFuels.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.PressureHead.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.ExtremeMinTemp.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.PET.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.CWD.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.SmolderConsumption.
+2021-11-15 10:27:17,032 -    Registering Data:  Succession.FlamingConsumption.
+2021-11-15 10:27:17,035 -   MaxParallelThreads = 3.
+2021-11-15 10:27:17,053 - Eco	Soiltype	WiltPnt		FieldCap	FC-WP		Porosity
+2021-11-15 10:27:17,055 - mesic	SALO		0.08105644	0.1839697	0.1029133	0.4511843
+2021-11-15 10:27:17,063 - Using climate library: ClimateConfigFile_RCP2_6.txt.
+2021-11-15 10:27:17,107 - Error at line 12 of file "ClimateConfigFile_RCP2_6.txt":
+  Found the name "FineFuelMoistureCode" but expected "SpringStart"

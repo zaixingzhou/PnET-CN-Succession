@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PnET-CN-Succession", "PnET-CN-Succession.csproj", "{C1BA74AE-49FA-4573-A95E-B8CED101358B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console-Debug", "..\..\..\..\Core-Model-v7\Tool-Console\src\Console-Debug.csproj", "{F1A9B112-F02E-4C39-BE47-9A3111F94C14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA74A85C-2ED2-4CED-BEB7-73A302D842BF} = {AA74A85C-2ED2-4CED-BEB7-73A302D842BF}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension_Admin", "..\..\..\..\Core-Model-v7\Tool-Extension-Admin\src\Extension_Admin.csproj", "{8EDB3985-3542-4AB5-B07E-2FC00041CE9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "output-biomass-pnet", "..\..\..\..\Extension-Output-Biomass-PnET\src\output-biomass-pnet.csproj", "{AA74A85C-2ED2-4CED-BEB7-73A302D842BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "library-succession", "..\..\Library-Succession\src\library-succession.csproj", "{1B2F2FE3-4895-4FEC-9421-FE43E9258AD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library-PnET-Cohort", "..\..\..\..\Library-PnET-Cohort\src\Library-PnET-Cohort.csproj", "{B83B9ADD-7A0C-412C-B574-3B548DEA6FF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BA74AE-49FA-4573-A95E-B8CED101358B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BA74AE-49FA-4573-A95E-B8CED101358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BA74AE-49FA-4573-A95E-B8CED101358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BA74AE-49FA-4573-A95E-B8CED101358B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A9B112-F02E-4C39-BE47-9A3111F94C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A9B112-F02E-4C39-BE47-9A3111F94C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A9B112-F02E-4C39-BE47-9A3111F94C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A9B112-F02E-4C39-BE47-9A3111F94C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDB3985-3542-4AB5-B07E-2FC00041CE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDB3985-3542-4AB5-B07E-2FC00041CE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDB3985-3542-4AB5-B07E-2FC00041CE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDB3985-3542-4AB5-B07E-2FC00041CE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA74A85C-2ED2-4CED-BEB7-73A302D842BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA74A85C-2ED2-4CED-BEB7-73A302D842BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA74A85C-2ED2-4CED-BEB7-73A302D842BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA74A85C-2ED2-4CED-BEB7-73A302D842BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2F2FE3-4895-4FEC-9421-FE43E9258AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2F2FE3-4895-4FEC-9421-FE43E9258AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2F2FE3-4895-4FEC-9421-FE43E9258AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2F2FE3-4895-4FEC-9421-FE43E9258AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83B9ADD-7A0C-412C-B574-3B548DEA6FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83B9ADD-7A0C-412C-B574-3B548DEA6FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83B9ADD-7A0C-412C-B574-3B548DEA6FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83B9ADD-7A0C-412C-B574-3B548DEA6FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C2BC3B4-E4DC-4B62-95C8-73FAA1AEC051}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "PnET-CN-Succession": {
+      "commandName": "Project",
+      "commandLineArgs": "EMS_scenario_pnet.txt",
+      "workingDirectory": "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\Zhou\\Zhou_cases_cn\\single_cell_test_sites\\EMS"
+    }
+  }
+}

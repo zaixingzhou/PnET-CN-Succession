@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Library-Succession\\src\\library-succession.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Library-Succession\\src\\library-succession.csproj": {
+      "version": "9.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Library-Succession\\src\\library-succession.csproj",
+        "projectName": "Landis.Library.Succession-v9",
+        "projectPath": "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Library-Succession\\src\\library-succession.csproj",
+        "packagesPath": "C:\\Users\\zzhou\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Library-Succession\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zzhou\\Documents\\GitHub\\PnET_CN_Succession\\aruzicka555\\Extension-PnET-Succession\\src\\NuGet.Config",
+          "C:\\Users\\zzhou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/landis-ii-v7/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Accord.Statistics": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Landis.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Landis.Utilities": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
